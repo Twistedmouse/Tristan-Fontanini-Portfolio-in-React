@@ -7,7 +7,7 @@ function Header() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            <h1> The Tech Blog </h1>
+            <h1> Tristan Fontanini://Portfolio</h1>
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">

@@ -7,15 +7,15 @@ function Home() {
         <div className="grid-container">
           <div class="row align-items-center my-5">
             <div class="col-lg-5">
-              <div className="pTagColor">
+              <div className="pTagColorDiv">
                 <p className="pTagColor">Hey there, my name is</p>
               </div>
-              <div className="h1ColorChange">
+              <div className="h1ColorChangeDiv">
                 <h1 className="h1ColorChange" class="font-weight-light">
                   Tristan Fontanini,
                 </h1>
               </div>
-              <div className="pTag">
+              <div className="pTagDiv">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -24,7 +24,7 @@ function Home() {
                   specimen book.
                 </p>
               </div>
-              <div className="imgTag">
+              <div className="imgTagDiv">
                 <p className="imgTag"> image here replace with img tag</p>
               </div>
             </div>
