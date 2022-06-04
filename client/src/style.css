@@ -1,8 +1,16 @@
-html {
-  height:100%;
+* {
+  font-family: monospace;
 }
 
-h1 { 
+html {
+  height: 100%;
+}
+
+nav.navbar {
+  box-shadow: -1px 8px 28px -8px rgba(30, 110, 31, 0.4);
+}
+
+h1 {
   font-size: 28px;
   color: white;
 }
@@ -11,8 +19,7 @@ body {
   background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c6c6c6, #c6c6c6, 26px, transparent 52px, transparent 26px);
   background-blend-mode: multiply;
   background-color: #354347;
-  background-repeat: no-repeat; 
-  
+  background-repeat: no-repeat;
 }
 
 p {
@@ -20,5 +27,12 @@ p {
 }
 
 .footer {
-  padding: 28px;
+  padding: 5px;
+  box-shadow: -1px -8px 28px -8px rgba(30, 110, 31, 0.4);
+}
+
+.footerText {
+  color: rgba(255, 255, 255, 0.556);
+  text-align: center;
+  padding: 20px 20px 5px 20px;
 }

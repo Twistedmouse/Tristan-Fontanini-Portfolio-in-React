@@ -3,11 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <footer class="py-5 bg-dark fixed-bottom">
-        <div class="container">
-          <p class="m-0 text-center text-white">
-            Created by Tristan Fontanini 2022
-          </p>
+      <footer class="bg-dark fixed-bottom">
+        <div class="footer">
+          <p class="footerText">Created by Tristan Fontanini 2022</p>
         </div>
       </footer>
     </div>

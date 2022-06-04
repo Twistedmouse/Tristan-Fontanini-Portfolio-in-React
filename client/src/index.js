@@ -8,6 +8,7 @@ import { default as Header } from "./components/Header";
 import { default as Footer } from "./components/Footer";
 import { default as Home } from "./components/Home";
 import { default as About } from "./components/About";
+import { default as Project } from "./components/Project";
 import { default as Contact } from "./components/Contact";
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/project" element={<Project />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer />
