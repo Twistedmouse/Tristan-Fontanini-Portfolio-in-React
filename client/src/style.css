@@ -6,13 +6,35 @@ html {
   height: 100%;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    '1 1 1 1 1 1'
+    '2 2 2 2 2 2'
+    '3 3 4 4 4 4';
+  gap: 10px;
+  padding: 10px;
+  padding-left: 48px;
+}
+.pTagColor { grid-area: 1; }
+.h1ColorChange { grid-area: 2; }
+.pTag { grid-area: 3; }
+.imgTag { grid-area: 4; }
+
+
 nav.navbar {
   box-shadow: -1px 8px 28px -8px rgba(30, 110, 31, 0.4);
+  /* clip-path: polygon(0 0, 0 25%, 25% 85%, 100% 100%, 100% 0); */
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 78%, 53% 79%, 14% 89%, 0% 80%, 0% 20%);
+  /* try to reveal the text the clip is hiding */
 }
 
 h1 {
   font-size: 28px;
   color: white;
+}
+.h1ColorChange {
+  color: rgb(16, 187, 213)
 }
 
 body {
@@ -23,7 +45,10 @@ body {
 }
 
 p {
-  color: white;
+  color: rgb(151, 197, 229);
+}
+.pTagColor{
+  color: rgb(41, 102, 143);
 }
 
 .footer {
