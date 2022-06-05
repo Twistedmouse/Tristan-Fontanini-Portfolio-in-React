@@ -5,7 +5,7 @@ function Home() {
     <div className="home">
       <div class="Container">
         <div className="grid-container">
-          <div class="row align-items-center my-5">
+          <div class="row align-items-center ">
             <div class="col-lg-5">
               <div className="pTagColorDiv">
                 <p className="pTagColor">Hey there, my name is</p>
@@ -17,11 +17,15 @@ function Home() {
               </div>
               <div className="pTagDiv">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  I am a forever learning full stack developer who focuses more
+                  on the front end side. I really enjoy design and creating
+                  interesting UI/UX design where it fits. I have mostly worked
+                  with Html, CSS, Javascript, ReactJS and C#. Currently I am
+                  learning VR development, game dev and learning about machine
+                  learning and how I can make it work with gaming. Most of my
+                  experience is around web development and finding automated
+                  solutions. I get excited learning new things and plan to
+                  continue growing on my coding journey.
                 </p>
               </div>
               <div className="imgTagDiv">

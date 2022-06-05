@@ -6,21 +6,42 @@ html {
   height: 100%;
 }
 
+.grid-container:last-child{
+  color: pink;
+}
+
 .grid-container {
   display: grid;
-  grid-template-areas:
-    '1 1 1 1 1 1'
-    '2 2 2 2 2 2'
-    '3 3 4 4 4 4';
-  gap: 10px;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  /* grid-template-areas: 
+  "hello hello"
+  "header header"
+  ". content content . image"; */
+  
+  grid-gap: 10px;
   padding: 10px;
-  padding-left: 48px;
+  padding-left: 48px; /* check if left padding affects all grid cells */
 }
-.pTagColorDiv { grid-area: 1; }
-.h1ColorChangeDiv { grid-area: 2; }
-.pTagDiv { grid-area: 3; }
-.imgTagDiv { grid-area: 4; }
-
+.pTagColorDiv{
+  grid-column-start: 1;
+  /* grid-area: hello; */
+}
+.h1ColorChangeDiv{
+  grid-column-start: 1;
+  grid-row-start: 2;
+  /* grid-area: header; */
+}
+.pTagColorDiv{
+  grid-column-start: 2;
+  /* grid-area: content; */
+}
+.imgTagDiv{ 
+  grid-column-start: 3;
+  grid-column-end: 4;
+  /* grid-area: image; */
+}
+/* fix grid */
 
 nav.navbar {
   box-shadow:inset -1px 8px 28px -8px rgba(30, 110, 31, 0.8);
@@ -35,10 +56,11 @@ h1 {
 }
 .h1ColorChange {
   color: rgb(16, 187, 213);
+  /*check why font nit changing col*/
 }
 
 body {
-  background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c6c6c6, #c6c6c6, 26px, transparent 52px, transparent 26px);
+  background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c6c6c6, #c6c6c6, 26px, transparent 52px, transparent 26px);/*play with px values in gradient | on first 26 try 66, test all values check example in 100l5 i made last night px can go higher then 100*/
   background-blend-mode: multiply;
   background-color: #354347;
   background-repeat: no-repeat;
