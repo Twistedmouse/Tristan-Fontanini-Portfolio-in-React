@@ -6,14 +6,10 @@ html {
   height: 100%;
 }
 
-.grid-container:last-child{
-  color: pink;
-}
-
 .grid-container {
   display: grid;
-  grid-template-columns: 50% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 50% 25% 35%;
+  grid-template-rows: 10% 25% 70% 50%;
   /* grid-template-areas: 
   "hello hello"
   "header header"
@@ -23,17 +19,23 @@ html {
   padding: 10px;
   padding-left: 48px; /* check if left padding affects all grid cells */
 }
-.pTagColorDiv{
+.helloDiv{
   grid-column-start: 1;
+  grid-column-end: 1;
   /* grid-area: hello; */
 }
-.h1ColorChangeDiv{
+.h1Div{
   grid-column-start: 1;
+  grid-column-end: 1;
   grid-row-start: 2;
+  grid-row-end: 2;
   /* grid-area: header; */
 }
-.pTagColorDiv{
-  grid-column-start: 2;
+.pTagDiv{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
   /* grid-area: content; */
 }
 .imgTagDiv{ 
@@ -44,23 +46,135 @@ html {
 /* fix grid */
 
 nav.navbar {
-  box-shadow:inset -1px 8px 28px -8px rgba(30, 110, 31, 0.8);
+  box-shadow:inset -1px 4px 40px 10px rgba(0, 0, 0, 0.8);
   
   clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 78%, 53% 69%, 14% 89%, 0% 80%, 0% 20%);
-  /* try gradient shadow to create rounded effect */
 }
 
 h1 {
-  font-size: 28px;
-  color: white;
-}
-.h1ColorChange {
+  font-size: 35px;
   color: rgb(16, 187, 213);
-  /*check why font nit changing col*/
+  margin-left: 28px;
+  
+}
+/* playing with letters */
+.h1Div h1::first-letter{
+  color: rgb(0, 255, 174);
+  font-size: 65px;
+}
+.h1Div h1 #nameT1:hover{
+  color: rgb(0, 255, 174);
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameR{
+  font-size: 30px; 
+}
+.h1Div h1 #nameR:hover{
+  font-size: 35px; 
+  color: rgb(116, 228, 245);
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameI1{
+  font-size: 43px;
+  color: rgb(190, 222, 250);
+}
+.h1Div h1 #nameI1:hover{
+  font-size: 40px;
+  color: aliceblue;
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+
+.h1Div h1 #nameS:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+  font-size: 32px;
+}
+.h1Div h1 #nameT2{}
+.h1Div h1 #nameT2:hover{
+  font-style: italic;
+}
+.h1Div h1 #nameA1{}
+.h1Div h1 #nameA1:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameN1{}
+.h1Div h1 #nameN1:hover{
+  font-style: italic;
+}
+.h1Div h1 #nameF{
+  color: rgb(0, 255, 174);
+  font-size: 60px;
+}
+.h1Div h1 #nameF:hover{
+  color: rgb(0, 255, 174);
+  font-size: 65px;
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameO{}
+.h1Div h1 #nameO:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameN1{}
+.h1Div h1 #nameN1:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameT3{
+  font-size: 43px;
+  color: rgb(190, 222, 250);
+}
+.h1Div h1 #nameT3:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameA2{}
+.h1Div h1 #nameA2:hover{
+  font-style: italic;
+}
+.h1Div h1 #nameN2{}
+.h1Div h1 #nameN2:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameI2{}
+.h1Div h1 #nameI2:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameN3{}
+.h1Div h1 #nameN3:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameI3{}
+.h1Div h1 #nameI3:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+.h1Div h1 #nameCom{}
+.h1Div h1 #nameCom:hover{
+  font-style: italic;
+  text-shadow: 1px 2px #c6c6c6;
+}
+
+/*========================================================== */
+
+
+.navbar-brand h1{
+  font-size: 28px;
+  color: rgb(173, 173, 173);
+  text-shadow: 1px 2px black;
+  margin-left: 5px;
 }
 
 body {
-  background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c6c6c6, #c6c6c6, 26px, transparent 52px, transparent 26px);/*play with px values in gradient | on first 26 try 66, test all values check example in 100l5 i made last night px can go higher then 100*/
+  background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c1c1c1, #747474, 26px, transparent 52px, transparent 16px);
   background-blend-mode: multiply;
   background-color: #354347;
   background-repeat: no-repeat;
@@ -69,13 +183,15 @@ body {
 p {
   color: rgb(151, 197, 229);
 }
-.pTagColor{
+.helloMessage{
   color: rgb(41, 102, 143);
+  font-size: 20px;
+  padding-top: 40px;
 }
 
 .footer {
   padding: 5px;
-  box-shadow:inset -1px -8px 28px -8px rgba(30, 110, 31, 0.8);
+  box-shadow:inset -1px -4px 40px 10px rgba(0, 0, 0, 0.8);
 }
 
 .footerText {
