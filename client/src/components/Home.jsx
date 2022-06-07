@@ -35,12 +35,15 @@ function Home() {
               I am a forever learning full stack developer who focuses more on
               the front end side. I really enjoy design and creating interesting
               UI/UX design where it fits. I have mostly worked with Html, CSS,
-              Javascript, ReactJS and C#. Currently I am learning VR
-              development, game dev and learning about machine learning and how
-              I can make it work with gaming. Most of my experience is around
-              web development and finding automated solutions. I get excited
-              learning new things and plan to continue growing on my coding
-              journey.
+              Javascript, ReactJS and C#.
+            </p>
+
+            <p>
+              Currently I am learning VR development, game dev and learning
+              about machine learning and how I can make it work with gaming.
+              Most of my experience is around web development and finding
+              automated solutions. I get excited learning new things and plan to
+              continue growing on my coding journey.
             </p>
           </div>
           <div className="imgTagDiv">
