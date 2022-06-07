@@ -11,13 +11,14 @@ html {
   grid-template-columns: 50% 25% 35%;
   grid-template-rows: 10% 25% 70% 50%;
   /* grid-template-areas: 
-  "hello hello"
-  "header header"
-  ". content content . image"; */
+  "hello hello ."
+  "header header . "
+  "content content image"; */
   
   grid-gap: 10px;
   padding: 10px;
   padding-left: 48px; /* check if left padding affects all grid cells */
+  
 }
 .helloDiv{
   grid-column-start: 1;
@@ -25,6 +26,7 @@ html {
   /* grid-area: hello; */
 }
 .h1Div{
+  transform: scale(120%);
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 2;
@@ -33,7 +35,7 @@ html {
 }
 .pTagDiv{
   grid-column-start: 1;
-  grid-column-end: 1;
+  grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 3;
   /* grid-area: content; */
@@ -41,9 +43,9 @@ html {
 .imgTagDiv{ 
   grid-column-start: 3;
   grid-column-end: 4;
+  grid-row-start: 3;
   /* grid-area: image; */
 }
-/* fix grid */
 
 nav.navbar {
   box-shadow:inset -1px 4px 40px 10px rgba(0, 0, 0, 0.8);
