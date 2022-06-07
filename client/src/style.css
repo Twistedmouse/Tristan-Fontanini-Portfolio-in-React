@@ -61,6 +61,7 @@ h1 {
 .h1Div h1::first-letter{
   color: rgb(0, 255, 174);
   font-size: 65px;
+  
 }
 .h1Div h1 #nameT1:hover{
   color: rgb(0, 255, 174);
@@ -86,22 +87,29 @@ h1 {
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
 }
-
+.h1Div h1 #nameS{
+  font-size: 37px;
+}
 .h1Div h1 #nameS:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
   font-size: 32px;
 }
-.h1Div h1 #nameT2{}
+.h1Div h1 #nameT2{
+  font-size: 42px;
+}
 .h1Div h1 #nameT2:hover{
   font-style: italic;
+  font-size: 46px;
 }
-.h1Div h1 #nameA1{}
+
 .h1Div h1 #nameA1:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
 }
-.h1Div h1 #nameN1{}
+.h1Div h1 #nameN1{
+  font-size: 48px;
+}
 .h1Div h1 #nameN1:hover{
   font-style: italic;
 }
@@ -115,12 +123,10 @@ h1 {
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
 }
-.h1Div h1 #nameO{}
 .h1Div h1 #nameO:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
 }
-.h1Div h1 #nameN1{}
 .h1Div h1 #nameN1:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
@@ -133,26 +139,32 @@ h1 {
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
 }
-.h1Div h1 #nameA2{}
+.h1Div h1 #nameA2{
+  font-size: 28px;
+}
 .h1Div h1 #nameA2:hover{
   font-style: italic;
+  font-size: 40px;
 }
-.h1Div h1 #nameN2{}
+.h1Div h1 #nameN2{
+  font-size: 40px;
+}
 .h1Div h1 #nameN2:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
+  font-size: 32px;
 }
-.h1Div h1 #nameI2{}
 .h1Div h1 #nameI2:hover{
   font-style: italic;
-  text-shadow: 1px 2px #c6c6c6;
+  font-size: 42px;
 }
-.h1Div h1 #nameN3{}
 .h1Div h1 #nameN3:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
 }
-.h1Div h1 #nameI3{}
+.h1Div h1 #nameI3{
+  font-size: 38px;
+}
 .h1Div h1 #nameI3:hover{
   font-style: italic;
   text-shadow: 1px 2px #c6c6c6;
