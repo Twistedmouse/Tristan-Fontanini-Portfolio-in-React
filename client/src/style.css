@@ -1,50 +1,62 @@
 * {
   font-family: monospace;
+  /* animation: growShrink 3s ease 0s infinite normal none; */
 }
 
 html {
   height: 100%;
 }
 
+/* .homeContainer{
+  margin: 28px 60px 0px 60px;
+} */
+
 .grid-container {
   display: grid;
-  grid-template-columns: 50% 25% 35%;
-  grid-template-rows: 10% 25% 70% 50%;
-  /* grid-template-areas: 
-  "hello hello ."
-  "header header . "
-  "content content image"; */
+  grid-template-columns: 45% 12% 35% ;
+  grid-template-rows: 10% 9% 30% 30%;
   
   grid-gap: 10px;
   padding: 10px;
-  padding-left: 48px; /* check if left padding affects all grid cells */
   
+  /* margin-top: 28px;
+  margin-left:60px;
+  margin-right: 60px; */
+  /* margin: 28px 60px 0px 60px; */
+  padding-left: 58px;
 }
 .helloDiv{
-  grid-column-start: 1;
-  grid-column-end: 1;
-  /* grid-area: hello; */
+  
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding-top: 21px;
+  margin-left:60px;
 }
+
 .h1Div{
+  
+  margin-left:83px;
   transform: scale(110%);
-  grid-column-start: 1;
-  grid-column-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
-  /* grid-area: header; */
+ 
 }
 .pTagDiv{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 3;
-  /* grid-area: content; */
-}
-.imgTagDiv{ 
+  
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
-  /* grid-area: image; */
+  grid-row-end: 4;
+}
+.imgTagDiv{ 
+  position: static;
+  margin-left: 80px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
 
 nav.navbar {
@@ -54,6 +66,7 @@ nav.navbar {
 }
 
 h1 {
+  
   font-size: 35px;
   color: rgb(16, 187, 213);
   margin-left: 28px;
@@ -198,14 +211,37 @@ body {
 
 p {
   color: rgb(151, 197, 229);
+  /* add mask gradient background  */
 }
 .helloMessage{
   color: rgb(41, 102, 143);
-  /* text-decoration: underline; */
   line-height: 0px;
   font-size: 20px;
-  padding-top: 40px;
+  padding-top: 58px;
+  
 }
+
+.imgTag{
+  height: 600px;
+  width: 600px;
+  /* animation: growShrink 3s ease 0s infinite normal none; */
+}
+@keyframes growShrink{
+  0%{
+    transform: scale(0.75);
+  }
+  50%{
+    transform: scale(1)
+  }
+  100%{
+    transform: scale(0.75);
+  }
+}
+
+  
+  
+  
+
 
 .footer {
   padding: 5px;

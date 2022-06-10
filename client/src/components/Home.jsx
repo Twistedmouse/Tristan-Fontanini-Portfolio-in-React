@@ -1,4 +1,5 @@
 import React from "react";
+// import laptopImg from "../../Assets/pngTreeLaptop";
 
 function Home() {
   return (
@@ -46,7 +47,11 @@ function Home() {
           </p>
         </div>
         <div className="imgTagDiv">
-          <p className="imgTag"> image here replace with img tag</p>
+          <img
+            className="imgTag"
+            src="/images/pngTreeLaptop.png"
+            alt="laptopImg"
+          ></img>
         </div>
       </div>
     </div>
