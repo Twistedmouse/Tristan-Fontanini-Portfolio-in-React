@@ -203,7 +203,9 @@ h1 {
 }
 
 body {
-  background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c1c1c1, #747474, 26px, transparent 52px, transparent 16px);
+  /* grey theme below thought it was more fun with some colour */
+  /* background-image: radial-gradient(circle at center center, #c6c6c6, #354347), repeating-radial-gradient(circle at center center, #c1c1c1, #747474, 26px, transparent 52px, transparent 16px); */
+  background-image: radial-gradient(circle at center center, #54bdea6f, #d627c761), repeating-radial-gradient(circle at center center, #c1c1c1, #747474, 26px, transparent 52px, transparent 16px);
   background-blend-mode: multiply;
   background-color: #354347;
   background-repeat: no-repeat;
