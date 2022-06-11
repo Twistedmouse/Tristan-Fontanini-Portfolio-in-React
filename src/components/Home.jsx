@@ -1,5 +1,5 @@
 import React from "react";
-// import laptopImg from "../../Assets/pngTreeLaptop";
+// import laptopImg from "/images/pngTreeLaptop.png";
 
 function Home() {
   return (
