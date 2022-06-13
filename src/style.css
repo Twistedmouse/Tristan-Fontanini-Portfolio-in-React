@@ -385,7 +385,7 @@ p {
 }
 .send:hover{
   color: rgb(151, 197, 229);
-  animation: sendSpin 3s ease 0s infinite normal none;
+  animation: sendSpin 0.5s  infinite normal none;
 }
 @keyframes sendSpin{
   0%{
@@ -398,7 +398,7 @@ p {
     background: linear-gradient(90deg,#54bdeac8 30%, #d627c7a5);
   }
   50%{
-    transform: scale(1.1);
+    transform: scale(1.05);
     background: linear-gradient(180deg,#54bdeac8 30%, #d627c7a5);
   }
   75%{
@@ -409,6 +409,7 @@ p {
     transform: scale(1);
     background: linear-gradient(360deg,#54bdeac8 30%, #d627c7a5);
   }
+  /* after grading coming back and re think button keyframes. its a bit strobey */
 }
 
 .githubContainer{
@@ -427,17 +428,34 @@ p {
   margin-left: 50%;
   height: 70px;
   filter:brightness(0);
+  opacity: 70%;
+  animation: logoGrowShrink 3s ease 2s infinite normal none;
 }
 .linkdInLogo{
   margin-right: 50%;
   height: 70px;
+  opacity: 70%;
+  animation: logoGrowShrink 3s ease-in-out 2s infinite normal none;
 }
 .gitHubLogo:hover{
-  
   filter:brightness(50);
 }
 .linkdInLogo:hover{
   filter:invert()
+}
+
+  
+
+@keyframes logoGrowShrink{
+  0%{
+    transform: scale(0.75);
+  }
+  50%{
+    transform: scale(1)
+  }
+  100%{
+    transform: scale(0.75);
+  }
 }
 
 

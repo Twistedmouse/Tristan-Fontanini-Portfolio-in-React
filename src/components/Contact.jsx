@@ -16,6 +16,7 @@ function Contact() {
       )
       .then((res) => {
         console.log(res);
+        // add change class to send to say sent if sucessful
       })
       .catch((err) => console.log(err));
   }
@@ -63,6 +64,7 @@ function Contact() {
             <button type="submit" className="send">
               Send
             </button>
+            {/* add change class to send to say sent if sucessful */}
             <div className="githubContainer">
               <a
                 href="https://github.com/Twistedmouse"
