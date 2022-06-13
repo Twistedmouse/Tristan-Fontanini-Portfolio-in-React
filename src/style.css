@@ -229,7 +229,7 @@ p {
   );
   border: solid rgba(255, 255, 255, 0.015) 5px;
   border-style: outset;
-  border-radius: 10rem 10rem 10rem 10rem ;
+  border-radius: 10rem;
   backdrop-filter: blur(10px);
   z-index: 900;
   border-radius: 13%;
@@ -325,7 +325,90 @@ p {
 
 /* =================CONTACT CSS=============================*/
 
+.contact-grid-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25% ;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  padding: 10px;
+  
+}
+.contactContainer{
+  display:flex;
+  justify-content:center;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.233),
+    rgba(160, 235, 252, 0.2)
+  );
+  border-radius: 1.5rem;
+  border-style: outset;
+  border:solid 5px rgba(160, 235, 252, 0.092);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  height: 150%;
+}
 
+.contactH1{
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.form{
+  color: rgb(128, 192, 238);
+  display:grid;
+  position: center;
+  grid-template-columns: 50% 50% 50% 50% 50%;
+  grid-template-rows: 25% 25% 25% 25% 25%;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.name{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.send{
+  border: solid 1px rgba(18, 235, 255, 0.473);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  height: 50px;
+  border-radius: 1em;
+  background: linear-gradient(25deg,#54bdea8e , #d627c730);
+}
+.send:hover{
+  color: rgb(151, 197, 229);
+  animation: sendSpin 3s ease 0s infinite normal none;
+}
+@keyframes sendSpin{
+  0%{
+    transform: scale(1);
+    background: linear-gradient(25deg,#54bdeac8 30%, #d627c7a5);
+
+  }
+  25%{
+    
+    background: linear-gradient(90deg,#54bdeac8 30%, #d627c7a5);
+  }
+  50%{
+    transform: scale(1.1);
+    background: linear-gradient(180deg,#54bdeac8 30%, #d627c7a5);
+  }
+  75%{
+    background: linear-gradient(240deg,#54bdeac8 30%, #d627c7a5);
+
+  }
+  100%{
+    transform: scale(1);
+    background: linear-gradient(360deg,#54bdeac8 30%, #d627c7a5);
+  }
+}
 
 /* =================FOOTER CSS============================= */
 
