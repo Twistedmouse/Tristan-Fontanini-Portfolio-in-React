@@ -5,7 +5,17 @@ function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    emailjs.sendForm();
+    emailjs
+      .sendForm(
+        "service_zt8cfsk",
+        "template_anfw02h",
+        e.target,
+        "Tg_ncOtAl61vxygur"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
   }
 
   return (
