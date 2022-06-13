@@ -355,6 +355,7 @@ p {
   margin: 0px;
   text-align: center;
   padding-bottom: 0.5em;
+  text-shadow:rgba(25, 25, 25, 0.655) 3px 3px;
 }
 
 .form{
@@ -409,6 +410,36 @@ p {
     background: linear-gradient(360deg,#54bdeac8 30%, #d627c7a5);
   }
 }
+
+.githubContainer{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.linkdInContainer{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.gitHubLogo{
+  margin-left: 50%;
+  height: 70px;
+  filter:brightness(0);
+}
+.linkdInLogo{
+  margin-right: 50%;
+  height: 70px;
+}
+.gitHubLogo:hover{
+  
+  filter:brightness(50);
+}
+.linkdInLogo:hover{
+  filter:invert()
+}
+
 
 /* =================FOOTER CSS============================= */
 

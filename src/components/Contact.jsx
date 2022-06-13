@@ -1,5 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import github from "../Images/github_logo.png";
+import linkdIn from "../Images/linkedin_logo.png";
 
 function Contact() {
   function handleSubmit(e) {
@@ -61,6 +63,28 @@ function Contact() {
             <button type="submit" className="send">
               Send
             </button>
+            <div className="githubContainer">
+              <a
+                href="https://github.com/Twistedmouse"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="gitHubLogo" src={github} alt="github profile" />
+              </a>
+            </div>
+            <div className="linkdInContainer">
+              <a
+                href="https://www.linkedin.com/in/tristan-fontanini-b91879203/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="linkdInLogo"
+                  src={linkdIn}
+                  alt="linkdIn profile"
+                />
+              </a>
+            </div>
           </form>
         </div>
       </div>

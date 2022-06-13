@@ -1,5 +1,5 @@
 import React from "react";
-// import laptopImg from "/images/pngTreeLaptop.png";
+import laptopImg from "../Images/pngTreeLaptop.png";
 
 function Home() {
   return (
@@ -48,11 +48,7 @@ function Home() {
           <p class="hoverText">HOVER OVER THE TEXT TO EXPAND</p>
         </div>
         <div className="imgTagDiv">
-          <img
-            className="imgTag"
-            src="/images/pngTreeLaptop.png"
-            alt="laptopImg"
-          ></img>
+          <img className="imgTag" src={laptopImg} alt="laptopImg" />
         </div>
       </div>
     </div>
