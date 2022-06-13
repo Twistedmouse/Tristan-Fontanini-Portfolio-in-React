@@ -24,6 +24,9 @@ html {
   /* margin: 28px 60px 0px 60px; */
   padding-left: 58px;
 }
+
+/* ======================HOME CSS============================= */
+
 .helloDiv{
   
   grid-column-start: 2;
@@ -50,7 +53,6 @@ html {
   grid-row-end: 4;
 }
 .imgTagDiv{ 
-  position: static;
   margin-left: 80px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -71,7 +73,7 @@ h1 {
   margin-left: 28px;
   
 }
-/* playing with letters */
+/*=================playing with letters (HOME NAME CSS)=========*/
 .h1Div h1::first-letter{
   color: rgb(0, 255, 174);
   font-size: 65px;
@@ -212,7 +214,11 @@ body {
 
 p {
   color: rgb(151, 197, 229);
-  /* add mask gradient background  */
+}
+.hoverText{
+  font-weight: bold;
+  font-style: italic;
+  color: rgba(151, 196, 229, 0.456);
 }
 .pTagDiv:hover{
   
@@ -223,7 +229,7 @@ p {
   );
   border: solid rgba(255, 255, 255, 0.015) 5px;
   border-style: outset;
-  border-radius: 10rem;
+  border-radius: 10rem 10rem 10rem 10rem ;
   backdrop-filter: blur(10px);
   z-index: 900;
   border-radius: 13%;
@@ -237,8 +243,11 @@ p {
   grid-column-end: 4;
   
 }
+.pTagDiv:hover .hoverText{
+  visibility: hidden;
+}
 .helloMessage{
-  color: rgb(41, 102, 143);
+  color: rgb(47, 118, 165);
   line-height: 0px;
   font-size: 20px;
   padding-top: 58px;
@@ -265,10 +274,60 @@ p {
   }
 }
 
-  
-  
-  
+/*===================ABOUT CSS==============================*/
 
+.aboutContainer{
+  margin-left: 5em;
+}
+.aboutHeader{
+  font-size: 2.54em;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:2;
+  grid-row-end: 3;
+}
+.aboutPTagDiv{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:3;
+  grid-row-end: 5;
+}
+.aboutPTagDiv:hover{
+  margin-left: 13.5em;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.233),
+    rgba(160, 235, 252, 0.2)
+  );
+  border: solid rgba(255, 255, 255, 0.015) 5px;
+  border-style: outset;
+  border-radius: 10rem 10rem 10rem 10rem ;
+  backdrop-filter: blur(10px);
+  z-index: 900;
+  border-radius: 13%;
+  backdrop-filter: blur(5px);
+  transform: scale(1.2);
+  height: 120%;
+  padding: 2em;
+  width:80%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  
+}
+.aboutPTagDiv:hover .hoverText{
+  visibility: hidden;
+}
+  
+/* =================PROJECT CSS=============================*/
+
+
+/* =================CONTACT CSS=============================*/
+
+
+
+/* =================FOOTER CSS============================= */
 
 .footer {
   padding: 5px;

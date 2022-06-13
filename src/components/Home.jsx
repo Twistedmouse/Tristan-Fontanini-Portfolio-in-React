@@ -45,6 +45,7 @@ function Home() {
             solutions. I get excited learning new things and plan to continue
             growing on my coding journey.
           </p>
+          <p class="hoverText">HOVER OVER THE TEXT TO EXPAND</p>
         </div>
         <div className="imgTagDiv">
           <img
