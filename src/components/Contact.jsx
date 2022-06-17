@@ -16,7 +16,7 @@ function Contact() {
       )
       .then((res) => {
         console.log(res);
-        // add change class to send to say sent if sucessful
+        // add change class to send to say "sent" if sucessful
       })
       .catch((err) => console.log(err));
   }

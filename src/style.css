@@ -241,7 +241,7 @@ p {
   width:80%;
   grid-column-start: 2;
   grid-column-end: 4;
-  
+  animation: vanishInWoutScale  0.5s ease 0s  normal forwards;
 }
 .pTagDiv:hover .hoverText{
   visibility: hidden;
@@ -314,14 +314,104 @@ p {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 5;
-  
+  animation: vanishInWoutScale  0.5s ease 0s  normal forwards;
+}
+@keyframes vanishInWoutScale {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    /* transform: scale(1, 1); */
+    filter: blur(70px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    /* transform: scale(1.5, 1.5); */
+    filter: blur(0px);
+  }
 }
 .aboutPTagDiv:hover .hoverText{
   visibility: hidden;
 }
   
 /* =================PROJECT CSS=============================*/
+.projectContainer{
+  text-align: center;
+}
 
+.ProjectH1{
+  margin-bottom: 2em;
+}
+
+.workContainer{
+  display: flexbox;
+  justify-content: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.work{
+  display: flexbox;
+  list-style: none;
+  justify-content: space-between;
+  max-height: 300px;
+  max-width: 300px;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border: solid 3px rgba(37, 221, 215, 0.388);
+  border-radius: 25% 25% 7% 41% / 5% 25% 25% 17%;
+}
+.work2{
+  display: flexbox;
+  list-style: none;
+  justify-content: space-between;
+  max-height: 400px;
+  max-width: 400px;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border: solid 3px rgba(37, 221, 215, 0.388);
+  border-radius: 5% 25% 25% 17% / 25% 25% 7% 41% ;
+}
+
+.work:hover{
+  cursor: pointer;
+  border: solid 3px rgb(37, 221, 215);
+  animation: vanishIn  0.5s ease 0s  normal forwards;
+}
+.work2:hover{
+  cursor: pointer;
+  border: solid 3px rgb(37, 221, 215);
+  animation: vanishIn  0.5s ease 0s  normal forwards;
+}
+@-webkit-keyframes vanishIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(70px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1.5, 1.5);
+    filter: blur(0px);
+  }
+}
+
+@keyframes vanishIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(70px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1.5, 1.5);
+    filter: blur(0px);
+  }
+}
 
 /* =================CONTACT CSS=============================*/
 
@@ -390,24 +480,24 @@ p {
 @keyframes sendSpin{
   0%{
     transform: scale(1);
-    background: linear-gradient(25deg,#54bdeac8 30%, #d627c7a5);
+    background: linear-gradient(25deg,#54bdeac8 30%, #ad8baba5);
 
   }
   25%{
     
-    background: linear-gradient(90deg,#54bdeac8 30%, #d627c7a5);
+    background: linear-gradient(90deg,#54bdeac8 30%, #c45dbba5);
   }
   50%{
     transform: scale(1.05);
-    background: linear-gradient(180deg,#54bdeac8 30%, #d627c7a5);
+    background: linear-gradient(180deg,#54bdeac8 30%, #c45dbba5);
   }
   75%{
-    background: linear-gradient(240deg,#54bdeac8 30%, #d627c7a5);
+    background: linear-gradient(240deg,#54bdeac8 30%, #c45dbba5);
 
   }
   100%{
     transform: scale(1);
-    background: linear-gradient(360deg,#54bdeac8 30%, #d627c7a5);
+    background: linear-gradient(360deg,#54bdeac8 30%, #c45dbba5);
   }
   /* after grading coming back and re think button keyframes. its a bit strobey */
 }
@@ -457,7 +547,7 @@ p {
     transform: scale(0.75);
   }
 }
-
+/* if radial background dosnt work on mobile try linear gradient for easy fix in media querie */
 
 /* =================FOOTER CSS============================= */
 
