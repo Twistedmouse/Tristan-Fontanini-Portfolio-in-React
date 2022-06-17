@@ -416,6 +416,7 @@ p {
 .hiddenText{
   visibility: hidden;
   font-size:22px;
+  color: #c9f2fe;
 }
 .workContainer:hover .hiddenText{
   position: relative;
@@ -570,4 +571,49 @@ p {
   color: rgba(255, 255, 255, 0.556);
   text-align: center;
   padding: 20px 20px 5px 20px;
+}
+
+/* ==============MEDIA QUERIES============================== */
+
+@media screen and (max-width: 1024px) {
+  body {
+    height: 100vh;
+    background-image: linear-gradient( #54bdea6f, #d627c761), repeating-linear-gradient( #c1c1c1, #747474, 26px, transparent 52px, transparent 16px);
+    background-blend-mode: multiply;
+    background-color: #354347;
+    background-repeat: repeat;
+  }
+  .helloDiv{
+  
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-top: 21px;
+    margin-left:60px;
+  }
+  
+  .h1Div{
+    
+    margin-left:83px;
+    transform: scale(110%);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+   
+  }
+  .pTagDiv{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .imgTagDiv{ 
+    margin-right: 20em;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    transform: scale(0.75)
+  }
 }
