@@ -316,6 +316,10 @@ p {
   grid-row-end: 5;
   animation: vanishInWoutScale  0.5s ease 0s  normal forwards;
 }
+
+.aboutPTagDiv:hover .hoverText{
+  visibility: hidden;
+}
 @keyframes vanishInWoutScale {
   0% {
     opacity: 0;
@@ -330,9 +334,6 @@ p {
     filter: blur(0px);
   }
 }
-.aboutPTagDiv:hover .hoverText{
-  visibility: hidden;
-}
   
 /* =================PROJECT CSS=============================*/
 .projectContainer{
@@ -340,7 +341,7 @@ p {
 }
 
 .ProjectH1{
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .workContainer{
@@ -411,6 +412,15 @@ p {
     transform: scale(1.5, 1.5);
     filter: blur(0px);
   }
+}
+.hiddenText{
+  visibility: hidden;
+  font-size:22px;
+}
+.workContainer:hover .hiddenText{
+  position: relative;
+  visibility:visible;
+  animation: vanishInWoutScale  0.5s ease 0s  normal forwards;
 }
 
 /* =================CONTACT CSS=============================*/

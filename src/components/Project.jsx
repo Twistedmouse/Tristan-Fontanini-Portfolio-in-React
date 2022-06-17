@@ -13,6 +13,7 @@ function Project() {
     <div className="projectContainer">
       <h1 className="ProjectH1">Project Work</h1>
       <ul className="workContainer">
+        <p class="hiddenText">Click To View Repo.</p>
         <img class="work" src={jsQuiz} alt="js-quiz-img" />
         <img class="work" src={scratchGame} alt="scratch-game-img" />
         <img class="work2" src={expressYourself} alt="express-yourself-img" />
