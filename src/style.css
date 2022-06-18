@@ -374,6 +374,94 @@ p {
   border-radius: 5% 25% 25% 17% / 25% 25% 7% 41% ;
 }
 
+/* ==================TOOL TIPS========================== */
+a[data-tool-tip]:hover::before{
+  pointer-events: none;
+  content:attr(data-tool-tip);
+  /* content: 'click here'; */
+  z-index: 900;
+  position: absolute;
+  background: rgb(37, 221, 215);
+  top:43%;
+  color: rgb(7, 96, 87);
+  width:20%;
+  border-radius: 10rem 1rem 5rem 10rem;
+  font-size: 18px;
+  text-shadow: 1px 1px #d5e4e9;
+  font-weight: 600;
+  white-space: nowrap;
+  animation: vanishInWoutScale  0.5s ease 0s  normal forwards;
+}
+.bottomRowWork[data-tool-tip]:hover::before{
+  pointer-events: none;
+  content:attr(data-tool-tip);
+  /* content: 'click here'; */
+  z-index: 900;
+  position: absolute;
+  background: rgb(37, 221, 215);
+  top:70%;
+  color: rgb(7, 96, 87);
+  width:20%;
+  border-radius: 10rem 1rem 5rem 10rem;
+  font-size: 18px;
+  text-shadow: 1px 1px #d5e4e9;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.dailySchedToolTip[data-tool-tip]:hover::before{
+  pointer-events: none;
+  content:attr(data-tool-tip);
+  /* content: 'click here'; */
+  z-index: 900;
+  position: absolute;
+  background: rgb(37, 221, 215);
+  right:67%;
+  top: 70%;
+  color: rgb(7, 96, 87);
+  width:20%;
+  border-radius: 10rem 1rem 5rem 10rem;
+  font-size: 18px;
+  text-shadow: 1px 1px #d5e4e9;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.longTooltip[data-tool-tip]:hover::before{
+  pointer-events: none;
+  content:attr(data-tool-tip);
+  /* content: 'click here'; */
+  z-index: 900;
+  position: absolute;
+  background: rgb(37, 221, 215);
+  left:55%;
+  top: 43%;
+  color: rgb(7, 96, 87);
+  width:20%;
+  border-radius: 10rem 1rem 5rem 10rem;
+  font-size: 18px;
+  text-shadow: 1px 1px #d5e4e9;
+  font-weight: 600;
+  white-space: nowrap;
+} 
+.longTooltip2[data-tool-tip]:hover::before{
+  pointer-events: none;
+  content:attr(data-tool-tip);
+  /* content: 'click here'; */
+  z-index: 900;
+  position: absolute;
+  background: rgb(37, 221, 215);
+  left:37.33%;
+  top: 70%;
+  color: rgb(7, 96, 87);
+  width:20%;
+  border-radius: 10rem 1rem 5rem 10rem;
+  font-size: 18px;
+  text-shadow: 1px 1px #d5e4e9;
+  font-weight: 600;
+  white-space: nowrap;
+} 
+
+
+/* ================================================= */
 .work:hover{
   cursor: pointer;
   border: solid 3px rgb(37, 221, 215);
@@ -596,7 +684,7 @@ p {
     margin-left:83px;
     transform: scale(110%);
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
    
@@ -615,5 +703,12 @@ p {
     grid-row-start: 3;
     grid-row-end: 5;
     transform: scale(0.75)
+  }
+  
+}
+
+@media screen and (max-width: 768px){
+  nav.navbar{
+    width: 100vw;
   }
 }
