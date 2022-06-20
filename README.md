@@ -1,8 +1,8 @@
 # React-Portfolio
 
-## Description:
-
 ---
+
+## Description:
 
 My personal portfolio built with ReactJS.
 <br>[repo link]
