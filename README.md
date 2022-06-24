@@ -26,7 +26,7 @@ My personal portfolio built with ReactJS.
 <p>The purpose of this portfolio is to show case my work and the ability to work with different technologies.
 <br>Deployed websit: [deploy link]
 </br>
-<br>NOTE: Still needs work for responsiveness.
+<br>NOTE: Still needs work for responsiveness. (Currently not mobile responsive, tablet responsive but about page needs more work.)
 </p>
 ---
 
