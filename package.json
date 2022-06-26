@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Twistedmouse.github.io",
+  "homepage": "https://Twistedmouse.github.io/Tristan-Fontanini-Portfolio-in-React",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.16.2",
