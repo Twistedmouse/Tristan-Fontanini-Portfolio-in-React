@@ -5,7 +5,7 @@
 ## Description:
 
 My personal portfolio built with ReactJS.
-<br>[repo link]
+<br>Repo: https://github.com/Twistedmouse/Tristan-Fontanini-Portfolio-in-React
 </br>
 
 ![](./src/Images/homepageScreensht.png)
@@ -24,7 +24,7 @@ My personal portfolio built with ReactJS.
 ## Usage:
 
 <p>The purpose of this portfolio is to show case my work and the ability to work with different technologies.
-<br>Deployed websit: [deploy link]
+<br>Deployed website: <a href="https://twistedmouse.github.io/Tristan-Fontanini-Portfolio-in-React/">https://twistedmouse.github.io/Tristan-Fontanini-Portfolio-in-React/</a>
 </br>
 <br>NOTE: Still needs work for responsiveness. (Currently not mobile responsive, tablet responsive but about page needs more work.)
 </p>
