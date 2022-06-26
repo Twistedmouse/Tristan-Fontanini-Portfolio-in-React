@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Tristan-Fontanini-Portfolio-in-React/static/css/main.901c0c04.css",
+    "main.js": "/Tristan-Fontanini-Portfolio-in-React/static/js/main.3e396d77.js",
+    "static/media/bubble.gif": "/Tristan-Fontanini-Portfolio-in-React/static/media/bubble.1e34e53c3eec117c4bd6.gif",
+    "static/media/homepage.jpg": "/Tristan-Fontanini-Portfolio-in-React/static/media/homepage.14e102c3f1d100f92bee.jpg",
+    "static/media/js-quiz.png": "/Tristan-Fontanini-Portfolio-in-React/static/media/js-quiz.65f758ceb79ab67ec8b1.png",
+    "static/media/express-yourself-face.png": "/Tristan-Fontanini-Portfolio-in-React/static/media/express-yourself-face.c2bf40747e098f978e8b.png",
+    "static/media/myMINDmatters.png": "/Tristan-Fontanini-Portfolio-in-React/static/media/myMINDmatters.3fe4d6923bd72c58540c.png",
+    "static/media/dayPlanner.png": "/Tristan-Fontanini-Portfolio-in-React/static/media/dayPlanner.baf24263c3e36d8b6e05.png",
+    "static/media/pngTreeLaptop.png": "/Tristan-Fontanini-Portfolio-in-React/static/media/pngTreeLaptop.aaa89f2f67afb5d65ae6.png",
+    "static/media/password-gen.png": "/Tristan-Fontanini-Portfolio-in-React/static/media/password-gen.62876038c19b42bb5b2f.png",
+    "static/media/scratch_demo.jpg": "/Tristan-Fontanini-Portfolio-in-React/static/media/scratch_demo.1100420eeff8539e968c.jpg",
+    "index.html": "/Tristan-Fontanini-Portfolio-in-React/index.html",
+    "main.901c0c04.css.map": "/Tristan-Fontanini-Portfolio-in-React/static/css/main.901c0c04.css.map",
+    "main.3e396d77.js.map": "/Tristan-Fontanini-Portfolio-in-React/static/js/main.3e396d77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.901c0c04.css",
+    "static/js/main.3e396d77.js"
+  ]
+}
